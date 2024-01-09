@@ -34,6 +34,10 @@ import {
       id: "Resume",
       title: "Resume",
     },
+    {
+      id: "LinkedIn",
+      title: "LinkedIn",
+    },
   ];
   
   const services = [
@@ -157,5 +161,8 @@ import {
       source_code_link: "https://myplacekeeper.netlify.app/",
     },
       ];
+
+      
+
   
   export { services, technologies, experiences, projects };
