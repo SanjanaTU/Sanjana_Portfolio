@@ -27,15 +27,7 @@ const Navbar = () => {
   }, []);
 
   
-  const handleResumeDownload = () => {
-    const resumeUrl = "../../src/assets/Sanjana_FullStack_Resume.pdf";
-    const link = document.createElement('a');
-    link.href = resumeUrl;
-    link.download = "Sanjana_FullStack_Resume.pdf";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
+
 
   return (
     <nav
@@ -70,13 +62,14 @@ const Navbar = () => {
       } hover:text-white text-[18px] font-medium cursor-pointer`}
          onClick={() => {
                 setActive(nav.title);
-                if (nav.title === "Resume") {
-                  handleResumeDownload();
-                }
+                
               }}
             >
       {nav.title === "Resume" ? (
-        <span>{nav.title}</span>
+        <a href="\src\assets\Sanjana_FullStack_Resume.pdf" download="Sanjana_FullStack_Resume.pdf">
+       
+        {nav.title}
+        </a>
       ) : nav.title === "LinkedIn" ? (
         <a href="https://www.linkedin.com/in/sanjanatu/" target="_blank" rel="noopener noreferrer">
           {nav.title}
