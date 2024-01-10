@@ -15,6 +15,7 @@ import {
     tesla,
     shopify,
     placeKeeper,
+    Travel,
   } from "../assets";
   
   export const navLinks = [
@@ -160,7 +161,28 @@ import {
       image: placeKeeper,
       source_code_link: "https://myplacekeeper.netlify.app/",
     },
-      ];
+    {
+      name: "Travel Tales Hub",
+      description:
+      "Welcome to Travel Tales Hub – your go-to web-based platform to discover enchanting tourist destinations across Europe.Join us in exploring the wonders of Europe.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: Travel,
+      source_code_link: "https://travel-tales-hub.netlify.app/",
+    },
+        ];
 
       
 
