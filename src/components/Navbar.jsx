@@ -25,6 +25,17 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  
+  const handleResumeDownload = () => {
+    const resumeUrl = "../../src/assets/Sanjana_FullStack_Resume.pdf";
+    const link = document.createElement('a');
+    link.href = resumeUrl;
+    link.download = "Sanjana_FullStack_Resume.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <nav
       className={`${
@@ -56,15 +67,15 @@ const Navbar = () => {
       className={`${
         active === nav.title ? "text-white" : "text-secondary"
       } hover:text-white text-[18px] font-medium cursor-pointer`}
-      onClick={() => setActive(nav.title)}
-    >
+         onClick={() => {
+                setActive(nav.title);
+                if (nav.title === "Resume") {
+                  handleResumeDownload();
+                }
+              }}
+            >
       {nav.title === "Resume" ? (
-        <a
-          href="../../src/assets/Sanjana_FullStack_Resume.pdf"  // Update with the correct path to your resume file
-          download="Sanjana_FullStack_Resume.pdf"
-        >
-          {nav.title}
-        </a>
+        <span>{nav.title}</span>
       ) : nav.title === "LinkedIn" ? (
         <a href="https://www.linkedin.com/in/sanjanatu/" target="_blank" rel="noopener noreferrer">
           {nav.title}

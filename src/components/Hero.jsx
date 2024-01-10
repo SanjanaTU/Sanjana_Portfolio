@@ -23,7 +23,7 @@ const Hero = () => {
 
 Just finished the Ironhack Full Stack Web development course, diving into HTML, CSS, JavaScript, Node.js, Express.js,React.js and MongoDB. No pro web dev experience yet, but my passion is rock-solid! <br className='sm:block hidden' />   <br className='sm:block hidden' />  
 
-Proudly transitioned from system administrator to testing, and now I'm stoked to venture into web development. I bring a mix of techie skills and a knack for problem-solving. Let's make cool things together! <br className='sm:block hidden' />   <br className='sm:block hidden' />  
+Proudly transitioned from system administrator to testing, and now I'm stoked to venture into web development. I bring a mix of techie skills and a knack for problem-solving. <br className='sm:block hidden' />   <br className='sm:block hidden' />  
 
 
           </p>

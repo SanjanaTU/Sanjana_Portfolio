@@ -34,6 +34,7 @@ import {
     {
       id: "Resume",
       title: "Resume",
+      type:"pdf",
     },
     {
       id: "LinkedIn",
