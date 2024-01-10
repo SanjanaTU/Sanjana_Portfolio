@@ -31,11 +31,11 @@ import {
       id: "contact",
       title: "Contact",
     },
-    {
-      id: "Resume",
-      title: "Resume",
-      type:"pdf",
-    },
+    // {
+    //   id: "Resume",
+    //   title: "Resume",
+    //   type:"pdf",
+    // },
     {
       id: "LinkedIn",
       title: "LinkedIn",
