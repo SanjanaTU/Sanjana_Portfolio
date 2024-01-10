@@ -28,7 +28,7 @@ const Navbar = () => {
 
   
   const handleResumeDownload = () => {
-    const resumeUrl = "../../public/Resume/Sanjana_FullStack_Resume.pdf";
+    const resumeUrl = "../../src/assets/Sanjana_FullStack_Resume.pdf";
     const link = document.createElement('a');
     link.href = resumeUrl;
     link.download = "Sanjana_FullStack_Resume.pdf";

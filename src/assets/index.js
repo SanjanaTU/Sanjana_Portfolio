@@ -31,8 +31,10 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import placeKeeper from "./MyPlaceKeeper.png";
 import Travel from "./TravelTales.png"
+import Resume from "./Sanjana_FullStack_Resume.pdf";
 
 export {
+  Resume,
   Travel,
   placeKeeper,
   logo,
