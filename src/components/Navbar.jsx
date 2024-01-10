@@ -5,6 +5,7 @@ import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
 
+
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
@@ -27,7 +28,7 @@ const Navbar = () => {
 
   
   const handleResumeDownload = () => {
-    const resumeUrl = "../../src/assets/Sanjana_FullStack_Resume.pdf";
+    const resumeUrl = "../../public/Resume/Sanjana_FullStack_Resume.pdf";
     const link = document.createElement('a');
     link.href = resumeUrl;
     link.download = "Sanjana_FullStack_Resume.pdf";

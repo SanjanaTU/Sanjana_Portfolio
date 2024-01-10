@@ -30,12 +30,10 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import placeKeeper from "./MyPlaceKeeper.png";
-import Resume from "./Sanjana_FullStack_Resume.pdf"
 import Travel from "./TravelTales.png"
 
 export {
   Travel,
-  Resume,
   placeKeeper,
   logo,
   backend,
