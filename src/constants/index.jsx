@@ -119,8 +119,8 @@ import {
       date: "Mar 2020 _ Oct 2022",
       points: [
         "Expertise in test case identification, design, and preparation for thorough testcoverage.",
-        "Proficiency in manual test execution across various testing types forcomprehensive quality assurance.",
-        "Efficient test case management using JIRA for improved organization and trackingof testing activities.",
+        "Proficiency in manual test execution across various testing types for comprehensive quality assurance.",
+        "Efficient test case management using JIRA for improved organization and tracking of testing activities.",
         "Solid understanding of SDLC, Software Test Life Cycle, and Defect Life Cycle foreffective coordination with development teams.",
       ],
     },
@@ -131,7 +131,7 @@ import {
       iconBg: "#383E56",
       date: "Nov 2015 _ Jun 2017",
       points: [
-        "Demonstrated proficiency in hardware knowledge and technical support, ensuringsmooth computer system functioning.",
+        "Demonstrated proficiency in hardware knowledge and technical support, ensuring smooth computer system functioning.",
         "Installed and troubleshooted Outlook and Outlook Express, minimizing email disruptions.",
         "Conducted maintenance and assembly for optimized system performance.",
         "Strengthened security through antivirus installation and updates. Provided efficientremote support using TeamViewer, Bomgar, and Skype.",

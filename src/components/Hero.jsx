@@ -19,11 +19,11 @@ const Hero = () => {
             Hello, I'm <span className='text-[#5d3da2]'>Sanjana</span>
           </h1>
           <p className={`${styles.heroSubText} mt-4 text-white-100`}>
-          I started as a Technical Support Team but got hooked on tech and learning. Spent over two years mastering manual software testing, acing test case, execution, and reporting bugs. <br className='sm:block hidden' />   <br className='sm:block hidden' />  
+          I started as a Technical Support but got hooked on tech and learning. Spent over two years mastering manual software testing, acing test case, execution, and reporting bugs. <br className='sm:block hidden' />   <br className='sm:block hidden' />  
 
-Just finished the Ironhack Full Stack Web development course, diving into HTML, CSS, JavaScript, Node.js, Express.js,React.js and MongoDB. No pro web dev experience yet, but my passion is rock-solid! <br className='sm:block hidden' />   <br className='sm:block hidden' />  
+          Just finished the Ironhack Full Stack Web development course, diving into HTML, CSS, JavaScript, Node.js, Express.js,React.js and MongoDB. No pro web dev experience yet, but my passion is rock-solid! <br className='sm:block hidden' />   <br className='sm:block hidden' />  
 
-Proudly transitioned from system administrator to testing, and now I'm stoked to venture into web development. I bring a mix of techie skills and a knack for problem-solving. <br className='sm:block hidden' />   <br className='sm:block hidden' />  
+          Proudly transitioned from Technical Support to testing, and now I'm stoked to venture into web development. I bring a mix of techie skills and a knack for problem-solving. <br className='sm:block hidden' />   <br className='sm:block hidden' />  
 
 
           </p>
