@@ -66,7 +66,7 @@ const Navbar = () => {
               }}
             >
       {nav.title === "Resume" ? (
-        <a href="\src\assets\Sanjana_FullStack_Resume.pdf" download="Sanjana_FullStack_Resume.pdf">
+      <a href="https://portfolio-sanjanatu.netlify.app/assets/Sanjana_FullStack_Resume-wWsbjXDq.pdf">
        
         {nav.title}
         </a>
