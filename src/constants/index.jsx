@@ -19,10 +19,10 @@ import {
   } from "../assets";
   
   export const navLinks = [
-    {
-      id: "about",
-      title: "About",
-    },
+    // {
+    //   id: "about",
+    //   title: "About",
+    // },
     {
       id: "work",
       title: "Work",
@@ -31,7 +31,7 @@ import {
       id: "contact",
       title: "Contact",
     },
-    {
+        {
       id: "Resume",
       title: "Resume",
       type:"pdf",
@@ -40,6 +40,7 @@ import {
       id: "LinkedIn",
       title: "LinkedIn",
     },
+  
   ];
   
   const services = [
@@ -133,7 +134,6 @@ import {
       points: [
         "Demonstrated proficiency in hardware knowledge and technical support, ensuring smooth computer system functioning.",
         "Installed and troubleshooted Outlook and Outlook Express, minimizing email disruptions.",
-        "Conducted maintenance and assembly for optimized system performance.",
         "Strengthened security through antivirus installation and updates. Provided efficientremote support using TeamViewer, Bomgar, and Skype.",
       ],
     },

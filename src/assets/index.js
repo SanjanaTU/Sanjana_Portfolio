@@ -32,6 +32,7 @@ import tripguide from "./tripguide.png";
 import placeKeeper from "./MyPlaceKeeper.png";
 import Travel from "./TravelTales.png"
 import Resume from "./Sanjana_FullStack_Resume.pdf";
+import photo from "./Sanjana_photo.jpg";
 
 export {
   Resume,
@@ -65,4 +66,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  photo
 };
