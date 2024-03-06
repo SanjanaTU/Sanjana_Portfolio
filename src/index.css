@@ -208,7 +208,7 @@
 
 @media only screen and (max-width: 600px) {
   .mobile-image {
-    width: 90%; /* Adjust width for smaller screens */
+    width: 95%; /* Adjust width for smaller screens */
     max-width: none; /* Remove max-width restriction */
   }
 }
