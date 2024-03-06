@@ -21,7 +21,7 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} mt-4 text-white-100`}>
             As an IT professional, I hold a Master's Degree and boast a diverse
-            background. With 2.7 years of experience as a Manual Tester and 3
+            background. With 2.7 years of experience as a Manual Tester and 6
             months dedicated to Web development, I bring a comprehensive skill
             set to the table. <br className="sm:block hidden" />{" "}
             <br className="sm:block hidden" />
