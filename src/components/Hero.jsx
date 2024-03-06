@@ -18,38 +18,47 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white mb-4`}>
             Hello, I'm <span className="text-[#5d3da2]">Sanjana</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white text-left sm:text-left`}>
+          <p
+            className={`${styles.heroSubText} mt-2 text-white text-left sm:text-left`}
+          >
             As an IT professional, I hold a Master's Degree and boast a diverse
             background. With 2.7 years of experience as a Manual Tester and 6
             months dedicated to Web development, I bring a comprehensive skill
-            set to the table. 
+            set to the table.
             <br className="sm:block hidden" />
-            Additionally, I am <a href="https://atsqa.org/certified-testers/profile/74772dbfa81e4bb7b8bb94557408d3f3" className="text-blue-500 hover:underline" target="_blank">ISTQB certified </a>, validating my expertise in
-            software testing. Further enhancing my capabilities, I successfully
-            completed a rigorous bootcamp at Ironhack, specializing in Full
-            Stack Web development. <br className="sm:block hidden" />{" "}
-            Through this program, I gained proficiency in a wide array of
-            technologies including HTML, CSS, JavaScript, Node.js, Express.js,
-            React.js, and MongoDB.
+            Additionally, I am{" "}
+            <a
+              href="https://atsqa.org/certified-testers/profile/74772dbfa81e4bb7b8bb94557408d3f3"
+              className="text-blue-500 hover:underline"
+              target="_blank"
+            >
+              ISTQB certified{" "}
+            </a>
+            , validating my expertise in software testing. Further enhancing my
+            capabilities, I successfully completed a rigorous bootcamp at
+            Ironhack, specializing in Full Stack Web development.{" "}
+            <br className="sm:block hidden" /> Through this program, I gained
+            proficiency in a wide array of technologies including HTML, CSS,
+            JavaScript, Node.js, Express.js, React.js, and MongoDB.
             <br className="sm:block hidden" />{" "}
             <br className="sm:block hidden" />
           </p>
         </div>
-        
         <div className="flex justify-end mt-2">
           <img
             src={photo}
             alt="Sanjana image"
             style={{
-              borderRadius: '20%', // Make the image circular
-              marginTop: '90px', // Add margin from the top
-              width: '600px', // Default width
-              height: 'auto', // Maintain aspect ratio
+              borderRadius: "20%", // Make the image circular
+              marginTop: "50px", // Add margin from the top
+              width: "100%", // Default width for larger screens
+              maxWidth: "600px", // Set maximum width for larger screens
+              height: "auto", // Maintain aspect ratio
             }}
-          />                  
+            className="mobile-image" // Add a class for targeting in CSS
+          />
         </div>
       </div>
-    
     </section>
   );
 };
