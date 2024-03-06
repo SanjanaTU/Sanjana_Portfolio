@@ -22,7 +22,7 @@ const Tech = () => {
        
       <div className="flex flex-wrap gap-2">
         {skills.map((skill, index) => (
-          <motion.div key={index} className={`px-2 py-5 bg-tertiary rounded-md text-secondary ${styles.skillItem}`}
+          <motion.div key={index} className={`px-5 py-2 mt-5 bg-tertiary rounded-md text-secondary ${styles.skillItem}`}
             whileHover={{ scale: 1.05, backgroundColor: '#5d3da2', color: '#ffffff' }}
             whileTap={{ scale: 0.95 }}>
             {skill}
